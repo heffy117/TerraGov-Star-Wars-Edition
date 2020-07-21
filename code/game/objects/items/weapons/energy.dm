@@ -44,8 +44,8 @@
 
 
 /obj/item/weapon/energy/sword
-	name = "energy sword"
-	desc = "May the force be within you."
+	name = "Lightsaber"
+	desc = "A lightsaber forged from centuries of war, used by forcewielders."
 	icon_state = "sword0"
 	force = 3.0
 	throwforce = 5.0
@@ -63,17 +63,17 @@
 /obj/item/weapon/energy/sword/Initialize()
 	. = ..()
 	if(!sword_color)
-		sword_color = pick("red","blue","green","purple")
+		sword_color = pick("red","blue","green","purple","cyan","magenta","white","orange","yellow")
 	AddComponent(/datum/component/shield, SHIELD_TOGGLE|SHIELD_PURE_BLOCKING)
 
 
 /obj/item/weapon/energy/sword/attack_self(mob/living/user as mob)
 	toggle_active()
 	if (active)
-		force = 30
+		force = 100
 		heat = 3500
 		if(base_sword_icon != "sword")
-			icon_state = "[base_sword_icon]1"
+			icon_state = "[base_sword_icon]"
 		else
 			icon_state = "sword[sword_color]"
 		w_class = WEIGHT_CLASS_BULKY
