@@ -114,8 +114,8 @@
 
 
 /obj/item/clothing/suit/storage/marine/clone
-	name = "\improper clone armor"
-	desc = "clone"
+	name = "\improper Phase I Clone Trooper armor"
+	desc = "Phase I Clone Trooper armor"
 	icon_state = "clone"
 	soft_armor = list("melee" = 45, "bullet" = 55, "laser" = 55, "energy" = 20, "bomb" = 45, "bio" = 30, "rad" = 10, "fire" = 25, "acid" = 35)
 	slowdown = SLOWDOWN_ARMOR_VERY_LIGHT

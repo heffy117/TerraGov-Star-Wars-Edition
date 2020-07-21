@@ -108,14 +108,3 @@ LOBBY_MUSIC 5 https://www.youtube.com/watch?v=P244DsBEYxs 1 180
 LOBBY_MUSIC 6 https://www.youtube.com/watch?v=muehxvezYmI 1 180
 #The Immolation Scene
 LOBBY_MUSIC 7 https://www.youtube.com/watch?v=HUpipZMNGhA 1 180
-#Carry On Wayward Son
-LOBBY_MUSIC 8 https://youtu.be/2X_2IdybTV0 1 180
-#Pioneer's Song
-LOBBY_MUSIC 9 https://youtu.be/80VU36nKUZc 1 180
-#Pushin' The Speed Of Light
-LOBBY_MUSIC 10 https://youtu.be/ud6LiVJkwyA 1 180
-#Spilit of Motherwill
-LOBBY_MUSIC 11 https://youtu.be/uB2CFA2RyLE 1 180
-#Space camp song!
-LOBBY_MUSIC 12 https://youtu.be/guXqg_Bnl74 1 180
-
